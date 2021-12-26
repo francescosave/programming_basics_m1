@@ -1,12 +1,3 @@
-#
-# Pane vecchio di un giorno Un panificio vende pagnotte di pane a 3,49 euro l'una.
-# Il pane vecchio di un giorno è scontato del 60%. Scrivete un programma che inizi
-# leggendo il numero di pagnotte di pane vecchio di un giorno acquistate dall'utente.
-# Poi il tuo programma dovrebbe visualizzare il prezzo regolare del pane, lo sconto
-# perché è vecchio di un giorno, e il prezzo totale. Ognuno di questi importi dovrebbe
-# essere visualizzato sulla propria linea con un'etichetta appropriata. Tutti i valori
-# dovrebbero essere visualizzati usando due cifre decimali, e i punti decimali in tutti
-# i numeri dovrebbero essere allineati quando l'utente inserisce valori ragionevoli.
 
 tabulate_label = 35
 format_two_decimal = "%.2f"
