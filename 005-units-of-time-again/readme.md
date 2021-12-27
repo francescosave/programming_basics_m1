@@ -1,6 +1,5 @@
 # Unita del tempo
 
-
 In questo esercizio invertirete il processo descritto nell'esercizio 24. Sviluppa un programma che inizia leggendo' \
 ' un numero di secondi dall'utente. Poi il tuo programma dovrebbe visualizzare la quantità equivalente di tempo nella
 forma D:HH:MM:SS, dove D, HH, MM, e SS rappresentano rispettivamente giorni, ore, minuti e secondi. Le ore, i minuti
@@ -22,11 +21,16 @@ Questo progetto richiede che venga completato in massimo  **2 ore**
 # Analisi dei requisiti
 
 Questo progetto prevede la conversione dell'unita di tempo,espresso in secondi, nella forma D:HH:MM:SS
+Per il calcolo partendo dall'unita piu grande,i giorni,li calcolo con divisione per intero mentre il residuo di secondi 
+li calcolo con il modulo.
+A quel punto si passa all'unita successiva piu piccola,le ore e successivamente i minuti,nello stesso modo fino ad arrivare
+al caso base che sono i secondi rimasti. 
 
 1. Leggo da tastiera i secondi totali
     fare il casting dei valori interi calcolati
-2. Calcolo il numero dei giorni, ore, minuti e secondi
+2. Calcolo il numero dei giorni, ore, minuti nello stesso modo
+3. Quando arrivo al caso base riporto i secondi rimasti
     li calcolo con l'operatore mod % che mi restituisce il resto dei minuti che sotraggo a quello calcolato'
-3. Formatto i valori con lo specificatore di formato
+4. Formatto i valori con lo specificatore di formato
 
 
