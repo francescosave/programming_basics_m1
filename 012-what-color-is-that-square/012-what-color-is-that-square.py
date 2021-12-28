@@ -1,16 +1,16 @@
 def color_in_square(cell):
     letter_colum = 'abcdefgh'
     colum = cell[0].lower()
-    riga = int(cell[1])
+    row = int(cell[1])
     colum = letter_colum.find(colum) + 1
 
     if (colum % 2):
-        if (riga % 2):
+        if (row % 2):
             return('black')  # DD
         else:
             return('white')  # DP
     else:
-        if (riga % 2):
+        if (row % 2):
             return('white')  # PD
         else:
             return('black')   #PP
