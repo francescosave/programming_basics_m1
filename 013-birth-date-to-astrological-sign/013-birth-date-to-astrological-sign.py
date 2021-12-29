@@ -9,6 +9,8 @@
 
 def getZodiacalName(month_name,day):
     #body function
+    print('mn ' + month_name)
+    print('day ' + day)
     return
 
 
@@ -17,15 +19,15 @@ day = 1
 
 #input body
 user_input = input('Inserire il mese e il giorno di nascita')
-print(user_input)
+#print('input ' + user_input)
 #fare lo split dei due valori
 user_input = user_input.split()
-print(user_input[0])
-print(user_input[1])
+month_name = (user_input[0])
+day = (user_input[1])
 
 message = "Sei nato il 1 gennaio e il tuo segno zodiacale è Capricorno"
 
 
 
 message = getZodiacalName(month_name,day)
-print(message)
+#print(message)
