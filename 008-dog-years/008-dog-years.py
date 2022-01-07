@@ -8,7 +8,7 @@
 # canini descritta nel paragrafo precedente. Assicuratevi che il vostro programma funzioni
 # correttamente per conversioni di meno di due anni umani e per conversioni di due o più anni umani.
 # Il tuo programma dovrebbe mostrare un messaggio di errore appropriato se l'utente inserisce un numero negativo.
-
+# refactoring nomi variabili e messaggi output
 
 #primi due anni  canini 10 anni e 6 mesi umani
 #secondo anno 21 anni

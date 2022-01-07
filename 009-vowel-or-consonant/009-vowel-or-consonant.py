@@ -11,6 +11,7 @@
 # Iteration
 # Strings
 
+# refactoring nomi variabili e messaggi output
 
 lettera_alfabeto = 'y'
 #lettera_alfabeto = str(input("inserire una lettera dell'alfabeto"))

@@ -6,6 +6,8 @@
 #A4	440.00
 #B4	493.88
 
+# refactoring nomi variabili e messaggi output
+
 def isNumber(value):
     #va in typerror se la input passa una stringa
     if value.isdecimal():

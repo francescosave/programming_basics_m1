@@ -4,6 +4,8 @@
 # Poi il tuo programma dovrebbe visualizzare il numero di giorni in quel mese. Visualizzate
 # "28 o 29 giorni" per febbraio, in modo da tenere conto degli anni bisestili.
 
+# refactoring nomi variabili e messaggi output
+
 #print(u'\u00E9')  e accentata
 
 mese_28_29 = 'è di 28 o 29 giorni'
