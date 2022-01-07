@@ -5,7 +5,6 @@
 #G4	392.00
 #A4	440.00
 #B4	493.88
-
 # refactoring nomi variabili e messaggi output
 
 def isNumber(value):
@@ -48,43 +47,41 @@ def isOctave(value):
         print('Octave not valid! ')
         return False
 
-def print_frequenza(nota, octave):
-    nota = nota.upper()
+def print_frequency(note, octave):
+    note = note.upper()
     octave = int(octave)
-    if nota == 'C':
-        frequenza = 261.63
-    elif nota == 'D':
-        frequenza = 293.66
-    elif nota == 'E':
-        frequenza = 329.63
-    elif nota == 'F':
-        frequenza = 349.23
-    elif nota == 'G':
-        frequenza = 392.00
-    elif nota == 'A':
-        frequenza = 440.00
-    elif nota == 'B':
-        frequenza = 493.00
+    if note == 'C':
+        frequency = 261.63
+    elif note == 'D':
+        frequency = 293.66
+    elif note == 'E':
+        frequency = 329.63
+    elif note == 'F':
+        frequency = 349.23
+    elif note == 'G':
+        frequency = 392.00
+    elif note == 'A':
+        frequency = 440.00
+    elif note == 'B':
+        frequency = 493.00
 
-    print((frequenza / 2**(4 - octave)))
-
-
+    print((frequency / 2**(4 - octave)))
 
 
-inp_nota = input('Inserire nota: ')
+inp_note = input('Enter note: ')
 
 # controllare la lunghezza della inp_nota inserita
-if isNoteLenValid(inp_nota):
-    inp_nota =  inp_nota [: 2]
-    nota = inp_nota[:1].upper()
-    octave = inp_nota[-1]
-    # print(type(nota))
+if isNoteLenValid(inp_note):
+    inp_note =  inp_note [: 2]
+    note = inp_note[:1].upper()
+    octave = inp_note[-1]
+    # print(type(note))
     # print(type(octave))
 
     # controllare la validita della nota
     # controllare se l'ottava è numerica e la validita della ottava
-    if isNote(nota) and isNumber(octave) and isOctave(octave):
-        print_frequenza(nota, octave)
+    if isNote(note) and isNumber(octave) and isOctave(octave):
+        print_frequency(note, octave)
 
 
 
