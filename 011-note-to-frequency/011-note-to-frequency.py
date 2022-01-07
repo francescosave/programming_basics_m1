@@ -82,15 +82,3 @@ if isNoteLenValid(inp_note):
     # controllare se l'ottava è numerica e la validita della ottava
     if isNote(note) and isNumber(octave) and isOctave(octave):
         print_frequency(note, octave)
-
-
-
-
-
-
-
-
-
-
-
-
