@@ -45,4 +45,16 @@ For this project solution you may use:
 
 This project requires to be completed in a maximum of **2 hours**
 
+# Link github
 
+https://github.com/tomorrowdevs-projects/programming-basics/blob/main/projects/m1/013-birth-date-to-astrological-sign/README.md
+
+# Output the of run code
+```
+C:\Users\user\AppData\Local\Programs\Python\Python310\python.exe C:/Users/user/Desktop/tommorowdevs-github/Projects/m1/013-birth-date-to-astrological-sign/013-birth-date-to-astrological-sign.py
+Entered your birthday's mounth and day: 12 17
+
+Your Zodiac Sign is Saggitarius!
+
+Process finished with exit code 0
+```
